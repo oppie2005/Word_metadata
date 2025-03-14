@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "word_metadata"
 version = "0.0.1"
 authors = [
-	{ name="Dustin P", email="author@example.com" },
+	{ name="Dustin P", email="dustin.pressley@gmail.com" },
 ]
 description = "a small example package"
 readme = "README.md"
@@ -18,6 +18,6 @@ classifiers = [
 license = {text = "MIT"}
 
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
+Homepage = "https://github.com/oppie2005/Word_metadata/"
 
 
