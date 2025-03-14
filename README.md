@@ -6,12 +6,18 @@ the document finalization process, just prior to publishing the Word document to
 Desired changes are to add a configuration file for changing other metadata items
 that will be consistent across all intended documents or can be changed as needed. 
 
+---
+
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Word Metadata](#word-metadata)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+---
 
 ## Installation
 
@@ -27,18 +33,24 @@ python --version
 python -m pip install pywin32
 ```
 
+---
+
 ## Usage
 
-Drag and drop your Word file onto the word_metadata.py file. A command
-prompt will open and your file will be processed. You may see Word open and close during the process.
+1. Drag and drop your Word file onto the word_metadata.py file. A command prompt will open and your file will be processed. 
+   *You may see Word open and close during the process.*
 
-or
+**or**
 
-open a command prompt and type:
+1. Navigate to the folder which contains the word_metadata.py file.
+2. Right-click anywhere in your folder and select "Open in terminal". 
+3. Type the below into the command prompt, followed by the [ENTER] key.
 
-```bash
-python word_metadata.py 'path to word file'
-```
+   ```bash
+   python word_metadata.py 'path to word file'
+   ```
+
+---
 
 ## Contributing
 
@@ -56,6 +68,8 @@ python word_metadata.py 'path to word file'
    git push origin feature/YourFeature
    ```
 5. Open a pull request.
+
+---
 
 ## License
 
