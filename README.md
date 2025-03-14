@@ -1,6 +1,10 @@
-# Project Title
+# Word Metadata
 
-A brief description of your project and what it does.
+Updates the metadata "Title" to match the word document filename. This is intended to be used during
+the document finalization process, just prior to publishing the Word document to PDF format. 
+
+Desired changes are to add a configuration file for changing other metadata items
+that will be consistent across all intended documents or can be changed as needed. 
 
 ## Table of Contents
 
@@ -11,27 +15,29 @@ A brief description of your project and what it does.
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/yourproject.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd yourproject
-   ```
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+1. Make sure you have Python 3 installed.
+
+```bash
+python --version
+```
+
+2. Install Dependencies:
+
+```bash
+python -m pip install pywin32
+```
 
 ## Usage
 
-Provide examples on how to use your project. You can include code snippets or screenshots here.
+Drag and drop your Word file onto the word_metadata.py file. A command
+prompt will open and your file will be processed. You may see Word open and close during the process.
 
-```javascript
-const example = require('yourproject');
+or
 
-example.doSomething();
+open a command prompt and type:
+
+```bash
+python word_metadata.py 'path to word file'
 ```
 
 ## Contributing
