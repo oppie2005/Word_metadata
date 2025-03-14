@@ -1,2 +1,5 @@
-# Word_metadata
-Drag and drop Word file to change metadata Title to match the filename
+# Example Package
+
+This is a simple package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

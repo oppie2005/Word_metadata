@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "word_metadata"
+version = "0.0.1"
+authors = [
+	{ name="Dustin P", email="author@example.com" },
+]
+description = "a small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+	"Programming Languages :: Python :: 3",
+	"Operating System :: Windows",
+]
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+
+
